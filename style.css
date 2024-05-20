@@ -500,3 +500,61 @@
   font-weight: 400;
   position: relative;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.frame-1321315771, .frame-1321315768, .frame-1321315770, .frame-1321315773 {
+    margin: 10px;
+    flex: 1 1 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.frame-1321315767, .frame-1321315766, .frame-1321315765, .frame-13213157682, .frame-13213157642 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-text, .coming-soon, .the-site-is-under-construction, .ui-ux-design, .usability-testing, .wireframe, .prototyping, .responsive-design, .design-documentations, .identifying-ux-issues, .figma, .adobe-illustrator, .framer, .user-flows, .yogesh-chauhan, .ux-ui-designer {
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frame-1321315771, .frame-1321315768, .frame-1321315770, .frame-1321315773 {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .frame-1321315771, .frame-1321315768, .frame-1321315770, .frame-1321315773 {
+        padding: 10px;
+    }
+}
+
