@@ -1,0 +1,1428 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --4e84c4: #4e84c4;
+  --021f47: #021f47;
+  --ec9b30: #ec9b30;
+  --black-50: #f6f6f6;
+  --black-100: #e7e7e7;
+  --black-200: #d1d1d1;
+  --black-300: #b0b0b0;
+  --black-400: #888888;
+  --black-500: #6d6d6d;
+  --black-600: #5d5d5d;
+  --black-700: #4f4f4f;
+  --black-800: #454545;
+  --black-900: #3d3d3d;
+  --black-950: #000000;
+  --orange-50: #fef6ee;
+  --orange-100: #fee9d6;
+  --orange-200: #fbd0ad;
+  --orange-300: #f9af78;
+  --orange-400: #f58342;
+  --orange-500: #f26522;
+  --orange-600: #e34813;
+  --orange-700: #bc3412;
+  --orange-800: #962b16;
+  --orange-900: #792615;
+  --orange-950: #411009;
+  --orange-50: #fef6ee;
+  --orange-100: #fdead7;
+  --orange-200: #fbd0ad;
+  --orange-300: #f7af7a;
+  --orange-400: #f38344;
+  --orange-500: #f06321;
+  --orange-600: #e14815;
+  --orange-700: #bb3513;
+  --orange-800: #952c17;
+  --orange-900: #782616;
+  --orange-950: #411009;
+  --foundation-blue-light: #e9ecf1;
+  --foundation-blue-light-hover: #dee2eb;
+  --foundation-blue-light-active: #bac3d5;
+  --foundation-blue-normal: #213d77;
+  --foundation-blue-normal-hover: #1e376b;
+  --foundation-blue-normal-active: #1a315f;
+  --foundation-blue-dark: #192e59;
+  --foundation-blue-dark-hover: #142547;
+  --foundation-blue-dark-active: #0f1b36;
+  --foundation-blue-darker: #0c152a;
+
+  /* Fonts */
+  --test-1-lvp44dui-desktop-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-display-1-font-size: 144px;
+  --test-1-lvp44dui-desktop-headings-display-1-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-display-1-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-display-1-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-display-2-font-size: 96px;
+  --test-1-lvp44dui-desktop-headings-display-2-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-display-2-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-display-2-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-display-3-font-size: 64px;
+  --test-1-lvp44dui-desktop-headings-display-3-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-display-3-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-display-3-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-heading-1-font-size: 56px;
+  --test-1-lvp44dui-desktop-headings-heading-1-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-heading-1-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-heading-1-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-heading-2-font-size: 48px;
+  --test-1-lvp44dui-desktop-headings-heading-2-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-heading-2-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-heading-2-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-heading-3-font-size: 40px;
+  --test-1-lvp44dui-desktop-headings-heading-3-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-heading-3-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-heading-3-font-style: normal;
+  --test-1-lvp44dui-desktop-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-headings-heading-4-font-size: 32px;
+  --test-1-lvp44dui-desktop-headings-heading-4-line-height: 120%;
+  --test-1-lvp44dui-desktop-headings-heading-4-font-weight: 700;
+  --test-1-lvp44dui-desktop-headings-heading-4-font-style: normal;
+  --test-1-lvp44dui-desktop-body-hero-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-hero-bold-font-size: 28px;
+  --test-1-lvp44dui-desktop-body-hero-bold-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-hero-bold-font-weight: 700;
+  --test-1-lvp44dui-desktop-body-hero-bold-font-style: normal;
+  --test-1-lvp44dui-desktop-body-hero-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-hero-accent-font-size: 28px;
+  --test-1-lvp44dui-desktop-body-hero-accent-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-hero-accent-font-weight: 600;
+  --test-1-lvp44dui-desktop-body-hero-accent-font-style: normal;
+  --test-1-lvp44dui-desktop-body-hero-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-hero-emphasis-font-size: 28px;
+  --test-1-lvp44dui-desktop-body-hero-emphasis-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-hero-emphasis-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-hero-emphasis-font-style: italic;
+  --test-1-lvp44dui-desktop-body-hero-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-hero-standard-font-size: 28px;
+  --test-1-lvp44dui-desktop-body-hero-standard-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-hero-standard-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-hero-standard-font-style: normal;
+  --test-1-lvp44dui-desktop-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-feature-bold-font-size: 24px;
+  --test-1-lvp44dui-desktop-body-feature-bold-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-feature-bold-font-weight: 700;
+  --test-1-lvp44dui-desktop-body-feature-bold-font-style: normal;
+  --test-1-lvp44dui-desktop-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-feature-accent-font-size: 24px;
+  --test-1-lvp44dui-desktop-body-feature-accent-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-feature-accent-font-weight: 600;
+  --test-1-lvp44dui-desktop-body-feature-accent-font-style: normal;
+  --test-1-lvp44dui-desktop-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-feature-emphasis-font-size: 24px;
+  --test-1-lvp44dui-desktop-body-feature-emphasis-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-feature-emphasis-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-feature-emphasis-font-style: italic;
+  --test-1-lvp44dui-desktop-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-feature-standard-font-size: 24px;
+  --test-1-lvp44dui-desktop-body-feature-standard-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-feature-standard-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-feature-standard-font-style: normal;
+  --test-1-lvp44dui-desktop-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-highlight-bold-font-size: 18px;
+  --test-1-lvp44dui-desktop-body-highlight-bold-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-highlight-bold-font-weight: 700;
+  --test-1-lvp44dui-desktop-body-highlight-bold-font-style: normal;
+  --test-1-lvp44dui-desktop-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-highlight-accent-font-size: 18px;
+  --test-1-lvp44dui-desktop-body-highlight-accent-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-highlight-accent-font-weight: 600;
+  --test-1-lvp44dui-desktop-body-highlight-accent-font-style: normal;
+  --test-1-lvp44dui-desktop-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-highlight-emphasis-font-size: 18px;
+  --test-1-lvp44dui-desktop-body-highlight-emphasis-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-highlight-emphasis-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-highlight-emphasis-font-style: italic;
+  --test-1-lvp44dui-desktop-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-highlight-standard-font-size: 18px;
+  --test-1-lvp44dui-desktop-body-highlight-standard-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-highlight-standard-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-highlight-standard-font-style: normal;
+  --test-1-lvp44dui-desktop-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-content-bold-font-size: 16px;
+  --test-1-lvp44dui-desktop-body-content-bold-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-content-bold-font-weight: 700;
+  --test-1-lvp44dui-desktop-body-content-bold-font-style: normal;
+  --test-1-lvp44dui-desktop-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-content-accent-font-size: 16px;
+  --test-1-lvp44dui-desktop-body-content-accent-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-content-accent-font-weight: 600;
+  --test-1-lvp44dui-desktop-body-content-accent-font-style: normal;
+  --test-1-lvp44dui-desktop-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-content-emphasis-font-size: 16px;
+  --test-1-lvp44dui-desktop-body-content-emphasis-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-content-emphasis-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-content-emphasis-font-style: italic;
+  --test-1-lvp44dui-desktop-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-content-regular-font-size: 16px;
+  --test-1-lvp44dui-desktop-body-content-regular-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-content-regular-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-content-regular-font-style: normal;
+  --test-1-lvp44dui-desktop-body-caption-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-caption-bold-font-size: 14px;
+  --test-1-lvp44dui-desktop-body-caption-bold-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-caption-bold-font-weight: 700;
+  --test-1-lvp44dui-desktop-body-caption-bold-font-style: normal;
+  --test-1-lvp44dui-desktop-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-caption-accent-font-size: 14px;
+  --test-1-lvp44dui-desktop-body-caption-accent-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-caption-accent-font-weight: 600;
+  --test-1-lvp44dui-desktop-body-caption-accent-font-style: normal;
+  --test-1-lvp44dui-desktop-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-caption-emphasis-font-size: 14px;
+  --test-1-lvp44dui-desktop-body-caption-emphasis-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-caption-emphasis-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-caption-emphasis-font-style: italic;
+  --test-1-lvp44dui-desktop-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-desktop-body-caption-regular-font-size: 14px;
+  --test-1-lvp44dui-desktop-body-caption-regular-line-height: 120%;
+  --test-1-lvp44dui-desktop-body-caption-regular-font-weight: 400;
+  --test-1-lvp44dui-desktop-body-caption-regular-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-display-1-font-family: Lora-Bold, sans-serif;
+  --test-1-lvp44dui-mobile-headings-display-1-font-size: 44px;
+  --test-1-lvp44dui-mobile-headings-display-1-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-display-1-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-display-1-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-display-2-font-family: Lora-Bold, sans-serif;
+  --test-1-lvp44dui-mobile-headings-display-2-font-size: 40px;
+  --test-1-lvp44dui-mobile-headings-display-2-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-display-2-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-display-2-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-display-3-font-family: Lora-Bold, sans-serif;
+  --test-1-lvp44dui-mobile-headings-display-3-font-size: 32px;
+  --test-1-lvp44dui-mobile-headings-display-3-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-display-3-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-display-3-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-headings-heading-1-font-size: 28px;
+  --test-1-lvp44dui-mobile-headings-heading-1-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-heading-1-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-heading-1-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-headings-heading-2-font-size: 24px;
+  --test-1-lvp44dui-mobile-headings-heading-2-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-heading-2-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-heading-2-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-headings-heading-3-font-size: 20px;
+  --test-1-lvp44dui-mobile-headings-heading-3-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-heading-3-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-heading-3-font-style: normal;
+  --test-1-lvp44dui-mobile-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-headings-heading-4-font-size: 18px;
+  --test-1-lvp44dui-mobile-headings-heading-4-line-height: 120%;
+  --test-1-lvp44dui-mobile-headings-heading-4-font-weight: 700;
+  --test-1-lvp44dui-mobile-headings-heading-4-font-style: normal;
+  --test-1-lvp44dui-mobile-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-feature-bold-font-size: 18px;
+  --test-1-lvp44dui-mobile-body-feature-bold-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-feature-bold-font-weight: 700;
+  --test-1-lvp44dui-mobile-body-feature-bold-font-style: normal;
+  --test-1-lvp44dui-mobile-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-feature-accent-font-size: 18px;
+  --test-1-lvp44dui-mobile-body-feature-accent-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-feature-accent-font-weight: 600;
+  --test-1-lvp44dui-mobile-body-feature-accent-font-style: normal;
+  --test-1-lvp44dui-mobile-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-feature-emphasis-font-size: 18px;
+  --test-1-lvp44dui-mobile-body-feature-emphasis-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-feature-emphasis-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-feature-emphasis-font-style: italic;
+  --test-1-lvp44dui-mobile-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-feature-standard-font-size: 18px;
+  --test-1-lvp44dui-mobile-body-feature-standard-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-feature-standard-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-feature-standard-font-style: normal;
+  --test-1-lvp44dui-mobile-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-highlight-bold-font-size: 16px;
+  --test-1-lvp44dui-mobile-body-highlight-bold-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-highlight-bold-font-weight: 700;
+  --test-1-lvp44dui-mobile-body-highlight-bold-font-style: normal;
+  --test-1-lvp44dui-mobile-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-highlight-accent-font-size: 16px;
+  --test-1-lvp44dui-mobile-body-highlight-accent-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-highlight-accent-font-weight: 600;
+  --test-1-lvp44dui-mobile-body-highlight-accent-font-style: normal;
+  --test-1-lvp44dui-mobile-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-highlight-emphasis-font-size: 16px;
+  --test-1-lvp44dui-mobile-body-highlight-emphasis-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-highlight-emphasis-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-highlight-emphasis-font-style: italic;
+  --test-1-lvp44dui-mobile-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-highlight-standard-font-size: 16px;
+  --test-1-lvp44dui-mobile-body-highlight-standard-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-highlight-standard-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-highlight-standard-font-style: normal;
+  --test-1-lvp44dui-mobile-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-content-bold-font-size: 14px;
+  --test-1-lvp44dui-mobile-body-content-bold-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-content-bold-font-weight: 700;
+  --test-1-lvp44dui-mobile-body-content-bold-font-style: normal;
+  --test-1-lvp44dui-mobile-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-content-accent-font-size: 14px;
+  --test-1-lvp44dui-mobile-body-content-accent-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-content-accent-font-weight: 600;
+  --test-1-lvp44dui-mobile-body-content-accent-font-style: normal;
+  --test-1-lvp44dui-mobile-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-content-emphasis-font-size: 14px;
+  --test-1-lvp44dui-mobile-body-content-emphasis-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-content-emphasis-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-content-emphasis-font-style: italic;
+  --test-1-lvp44dui-mobile-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-content-regular-font-size: 14px;
+  --test-1-lvp44dui-mobile-body-content-regular-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-content-regular-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-content-regular-font-style: normal;
+  --test-1-lvp44dui-mobile-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-caption-accent-font-size: 12px;
+  --test-1-lvp44dui-mobile-body-caption-accent-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-caption-accent-font-weight: 600;
+  --test-1-lvp44dui-mobile-body-caption-accent-font-style: normal;
+  --test-1-lvp44dui-mobile-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-caption-emphasis-font-size: 12px;
+  --test-1-lvp44dui-mobile-body-caption-emphasis-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-caption-emphasis-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-caption-emphasis-font-style: italic;
+  --test-1-lvp44dui-mobile-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-caption-regular-font-size: 12px;
+  --test-1-lvp44dui-mobile-body-caption-regular-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-caption-regular-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-caption-regular-font-style: normal;
+  --test-1-lvp44dui-mobile-body-footnote-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-footnote-accent-font-size: 10px;
+  --test-1-lvp44dui-mobile-body-footnote-accent-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-footnote-accent-font-weight: 600;
+  --test-1-lvp44dui-mobile-body-footnote-accent-font-style: normal;
+  --test-1-lvp44dui-mobile-body-footnote-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-footnote-emphasis-font-size: 10px;
+  --test-1-lvp44dui-mobile-body-footnote-emphasis-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-footnote-emphasis-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-footnote-emphasis-font-style: italic;
+  --test-1-lvp44dui-mobile-body-footnote-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --test-1-lvp44dui-mobile-body-footnote-regular-font-size: 10px;
+  --test-1-lvp44dui-mobile-body-footnote-regular-line-height: 120%;
+  --test-1-lvp44dui-mobile-body-footnote-regular-font-weight: 400;
+  --test-1-lvp44dui-mobile-body-footnote-regular-font-style: normal;
+  --display-heading-h1-medium-font-family: Roboto-Medium, sans-serif;
+  --display-heading-h1-medium-font-size: 62px;
+  --display-heading-h1-medium-line-height: normal;
+  --display-heading-h1-medium-font-weight: 500;
+  --display-heading-h1-medium-font-style: normal;
+  --display-heading-h1-bold-font-family: Roboto-Bold, sans-serif;
+  --display-heading-h1-bold-font-size: 62px;
+  --display-heading-h1-bold-line-height: normal;
+  --display-heading-h1-bold-font-weight: 700;
+  --display-heading-h1-bold-font-style: normal;
+  --display-heading-h2-medium-font-family: Roboto-Medium, sans-serif;
+  --display-heading-h2-medium-font-size: 48px;
+  --display-heading-h2-medium-line-height: normal;
+  --display-heading-h2-medium-font-weight: 500;
+  --display-heading-h2-medium-font-style: normal;
+  --display-heading-h2-bold-font-family: Roboto-Bold, sans-serif;
+  --display-heading-h2-bold-font-size: 48px;
+  --display-heading-h2-bold-line-height: normal;
+  --display-heading-h2-bold-font-weight: 700;
+  --display-heading-h2-bold-font-style: normal;
+  --display-heading-h3-medium-font-family: Roboto-Medium, sans-serif;
+  --display-heading-h3-medium-font-size: 40px;
+  --display-heading-h3-medium-line-height: normal;
+  --display-heading-h3-medium-font-weight: 500;
+  --display-heading-h3-medium-font-style: normal;
+  --display-heading-h3-bold-font-family: Roboto-Bold, sans-serif;
+  --display-heading-h3-bold-font-size: 40px;
+  --display-heading-h3-bold-line-height: normal;
+  --display-heading-h3-bold-font-weight: 700;
+  --display-heading-h3-bold-font-style: normal;
+  --display-heading-h4-medium-font-family: Roboto-Medium, sans-serif;
+  --display-heading-h4-medium-font-size: 32px;
+  --display-heading-h4-medium-line-height: normal;
+  --display-heading-h4-medium-font-weight: 500;
+  --display-heading-h4-medium-font-style: normal;
+  --display-heading-h4-bold-font-family: Roboto-Bold, sans-serif;
+  --display-heading-h4-bold-font-size: 32px;
+  --display-heading-h4-bold-line-height: normal;
+  --display-heading-h4-bold-font-weight: 700;
+  --display-heading-h4-bold-font-style: normal;
+  --display-heading-h5-medium-font-family: Roboto-Medium, sans-serif;
+  --display-heading-h5-medium-font-size: 24px;
+  --display-heading-h5-medium-line-height: normal;
+  --display-heading-h5-medium-font-weight: 500;
+  --display-heading-h5-medium-font-style: normal;
+  --display-heading-h5-bold-font-family: Roboto-Bold, sans-serif;
+  --display-heading-h5-bold-font-size: 24px;
+  --display-heading-h5-bold-line-height: normal;
+  --display-heading-h5-bold-font-weight: 700;
+  --display-heading-h5-bold-font-style: normal;
+  --display-subheading-medium-font-family: Roboto-Medium, sans-serif;
+  --display-subheading-medium-font-size: 20px;
+  --display-subheading-medium-line-height: normal;
+  --display-subheading-medium-font-weight: 500;
+  --display-subheading-medium-font-style: normal;
+  --display-subheading-bold-font-family: Roboto-Bold, sans-serif;
+  --display-subheading-bold-font-size: 20px;
+  --display-subheading-bold-line-height: normal;
+  --display-subheading-bold-font-weight: 700;
+  --display-subheading-bold-font-style: normal;
+  --display-subheading-regular-font-family: Roboto-Regular, sans-serif;
+  --display-subheading-regular-font-size: 20px;
+  --display-subheading-regular-line-height: normal;
+  --display-subheading-regular-font-weight: 400;
+  --display-subheading-regular-font-style: normal;
+  --text-caption1-medium-font-family: Roboto-Medium, sans-serif;
+  --text-caption1-medium-font-size: 12px;
+  --text-caption1-medium-line-height: normal;
+  --text-caption1-medium-font-weight: 500;
+  --text-caption1-medium-font-style: normal;
+  --text-caption1-regular-font-family: Roboto-Regular, sans-serif;
+  --text-caption1-regular-font-size: 12px;
+  --text-caption1-regular-line-height: normal;
+  --text-caption1-regular-font-weight: 400;
+  --text-caption1-regular-font-style: normal;
+  --text-caption1-bold-font-family: Roboto-Bold, sans-serif;
+  --text-caption1-bold-font-size: 12px;
+  --text-caption1-bold-line-height: normal;
+  --text-caption1-bold-font-weight: 700;
+  --text-caption1-bold-font-style: normal;
+  --text-caption2-regular-font-family: Roboto-Regular, sans-serif;
+  --text-caption2-regular-font-size: 10px;
+  --text-caption2-regular-line-height: normal;
+  --text-caption2-regular-font-weight: 400;
+  --text-caption2-regular-font-style: normal;
+  --text-caption2-medium-font-family: Roboto-Medium, sans-serif;
+  --text-caption2-medium-font-size: 10px;
+  --text-caption2-medium-line-height: normal;
+  --text-caption2-medium-font-weight: 500;
+  --text-caption2-medium-font-style: normal;
+  --text-caption2-bold-font-family: Roboto-Bold, sans-serif;
+  --text-caption2-bold-font-size: 10px;
+  --text-caption2-bold-line-height: normal;
+  --text-caption2-bold-font-weight: 700;
+  --text-caption2-bold-font-style: normal;
+  --text-paragraph1-regular-font-family: Roboto-Regular, sans-serif;
+  --text-paragraph1-regular-font-size: 16px;
+  --text-paragraph1-regular-line-height: normal;
+  --text-paragraph1-regular-font-weight: 400;
+  --text-paragraph1-regular-font-style: normal;
+  --text-paragraph1-medium-font-family: Roboto-Medium, sans-serif;
+  --text-paragraph1-medium-font-size: 16px;
+  --text-paragraph1-medium-line-height: normal;
+  --text-paragraph1-medium-font-weight: 500;
+  --text-paragraph1-medium-font-style: normal;
+  --text-paragraph1-bold-font-family: Roboto-Bold, sans-serif;
+  --text-paragraph1-bold-font-size: 16px;
+  --text-paragraph1-bold-line-height: normal;
+  --text-paragraph1-bold-font-weight: 700;
+  --text-paragraph1-bold-font-style: normal;
+  --text-paragraph2-regular-font-family: Roboto-Regular, sans-serif;
+  --text-paragraph2-regular-font-size: 14px;
+  --text-paragraph2-regular-line-height: normal;
+  --text-paragraph2-regular-font-weight: 400;
+  --text-paragraph2-regular-font-style: normal;
+  --text-paragraph2-medium-font-family: Roboto-Medium, sans-serif;
+  --text-paragraph2-medium-font-size: 14px;
+  --text-paragraph2-medium-line-height: normal;
+  --text-paragraph2-medium-font-weight: 500;
+  --text-paragraph2-medium-font-style: normal;
+  --text-paragraph2-bold-font-family: Roboto-Bold, sans-serif;
+  --text-paragraph2-bold-font-size: 14px;
+  --text-paragraph2-bold-line-height: normal;
+  --text-paragraph2-bold-font-weight: 700;
+  --text-paragraph2-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-display-1-font-size: 144px;
+  --color-1-1-lvqmdgim-desktop-headings-display-1-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-display-1-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-display-1-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-display-2-font-size: 96px;
+  --color-1-1-lvqmdgim-desktop-headings-display-2-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-display-2-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-display-2-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-display-3-font-size: 64px;
+  --color-1-1-lvqmdgim-desktop-headings-display-3-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-display-3-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-display-3-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-heading-1-font-size: 56px;
+  --color-1-1-lvqmdgim-desktop-headings-heading-1-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-heading-1-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-heading-1-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-heading-2-font-size: 48px;
+  --color-1-1-lvqmdgim-desktop-headings-heading-2-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-heading-2-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-heading-2-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-heading-3-font-size: 40px;
+  --color-1-1-lvqmdgim-desktop-headings-heading-3-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-heading-3-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-heading-3-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-headings-heading-4-font-size: 32px;
+  --color-1-1-lvqmdgim-desktop-headings-heading-4-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-headings-heading-4-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-headings-heading-4-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-hero-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-hero-bold-font-size: 28px;
+  --color-1-1-lvqmdgim-desktop-body-hero-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-hero-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-body-hero-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-hero-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-hero-accent-font-size: 28px;
+  --color-1-1-lvqmdgim-desktop-body-hero-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-hero-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-desktop-body-hero-accent-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-hero-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-hero-emphasis-font-size: 28px;
+  --color-1-1-lvqmdgim-desktop-body-hero-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-hero-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-hero-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-desktop-body-hero-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-hero-standard-font-size: 28px;
+  --color-1-1-lvqmdgim-desktop-body-hero-standard-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-hero-standard-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-hero-standard-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-feature-bold-font-size: 24px;
+  --color-1-1-lvqmdgim-desktop-body-feature-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-feature-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-body-feature-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-feature-accent-font-size: 24px;
+  --color-1-1-lvqmdgim-desktop-body-feature-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-feature-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-desktop-body-feature-accent-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-feature-emphasis-font-size: 24px;
+  --color-1-1-lvqmdgim-desktop-body-feature-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-feature-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-feature-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-desktop-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-feature-standard-font-size: 24px;
+  --color-1-1-lvqmdgim-desktop-body-feature-standard-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-feature-standard-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-feature-standard-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-highlight-bold-font-size: 18px;
+  --color-1-1-lvqmdgim-desktop-body-highlight-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-highlight-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-body-highlight-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-highlight-accent-font-size: 18px;
+  --color-1-1-lvqmdgim-desktop-body-highlight-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-highlight-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-desktop-body-highlight-accent-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-highlight-emphasis-font-size: 18px;
+  --color-1-1-lvqmdgim-desktop-body-highlight-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-highlight-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-highlight-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-desktop-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-highlight-standard-font-size: 18px;
+  --color-1-1-lvqmdgim-desktop-body-highlight-standard-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-highlight-standard-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-highlight-standard-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-content-bold-font-size: 16px;
+  --color-1-1-lvqmdgim-desktop-body-content-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-content-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-body-content-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-content-accent-font-size: 16px;
+  --color-1-1-lvqmdgim-desktop-body-content-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-content-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-desktop-body-content-accent-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-content-emphasis-font-size: 16px;
+  --color-1-1-lvqmdgim-desktop-body-content-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-content-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-content-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-desktop-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-content-regular-font-size: 16px;
+  --color-1-1-lvqmdgim-desktop-body-content-regular-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-content-regular-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-content-regular-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-caption-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-caption-bold-font-size: 14px;
+  --color-1-1-lvqmdgim-desktop-body-caption-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-caption-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-desktop-body-caption-bold-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-caption-accent-font-size: 14px;
+  --color-1-1-lvqmdgim-desktop-body-caption-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-caption-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-desktop-body-caption-accent-font-style: normal;
+  --color-1-1-lvqmdgim-desktop-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-caption-emphasis-font-size: 14px;
+  --color-1-1-lvqmdgim-desktop-body-caption-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-caption-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-caption-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-desktop-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-desktop-body-caption-regular-font-size: 14px;
+  --color-1-1-lvqmdgim-desktop-body-caption-regular-line-height: 120%;
+  --color-1-1-lvqmdgim-desktop-body-caption-regular-font-weight: 400;
+  --color-1-1-lvqmdgim-desktop-body-caption-regular-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-display-1-font-size: 44px;
+  --color-1-1-lvqmdgim-mobile-headings-display-1-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-display-1-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-display-1-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-display-2-font-size: 40px;
+  --color-1-1-lvqmdgim-mobile-headings-display-2-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-display-2-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-display-2-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-display-3-font-size: 32px;
+  --color-1-1-lvqmdgim-mobile-headings-display-3-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-display-3-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-display-3-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-heading-1-font-size: 28px;
+  --color-1-1-lvqmdgim-mobile-headings-heading-1-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-heading-1-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-heading-1-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-heading-2-font-size: 24px;
+  --color-1-1-lvqmdgim-mobile-headings-heading-2-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-heading-2-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-heading-2-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-heading-3-font-size: 20px;
+  --color-1-1-lvqmdgim-mobile-headings-heading-3-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-heading-3-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-heading-3-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-headings-heading-4-font-size: 18px;
+  --color-1-1-lvqmdgim-mobile-headings-heading-4-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-headings-heading-4-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-headings-heading-4-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-feature-bold-font-size: 18px;
+  --color-1-1-lvqmdgim-mobile-body-feature-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-feature-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-body-feature-bold-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-feature-accent-font-size: 18px;
+  --color-1-1-lvqmdgim-mobile-body-feature-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-feature-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-mobile-body-feature-accent-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-feature-emphasis-font-size: 18px;
+  --color-1-1-lvqmdgim-mobile-body-feature-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-feature-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-feature-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-mobile-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-feature-standard-font-size: 18px;
+  --color-1-1-lvqmdgim-mobile-body-feature-standard-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-feature-standard-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-feature-standard-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-highlight-bold-font-size: 16px;
+  --color-1-1-lvqmdgim-mobile-body-highlight-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-highlight-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-body-highlight-bold-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-highlight-accent-font-size: 16px;
+  --color-1-1-lvqmdgim-mobile-body-highlight-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-highlight-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-mobile-body-highlight-accent-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-highlight-emphasis-font-size: 16px;
+  --color-1-1-lvqmdgim-mobile-body-highlight-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-highlight-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-highlight-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-mobile-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-highlight-standard-font-size: 16px;
+  --color-1-1-lvqmdgim-mobile-body-highlight-standard-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-highlight-standard-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-highlight-standard-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-content-bold-font-size: 14px;
+  --color-1-1-lvqmdgim-mobile-body-content-bold-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-content-bold-font-weight: 700;
+  --color-1-1-lvqmdgim-mobile-body-content-bold-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-content-accent-font-size: 14px;
+  --color-1-1-lvqmdgim-mobile-body-content-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-content-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-mobile-body-content-accent-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-content-emphasis-font-size: 14px;
+  --color-1-1-lvqmdgim-mobile-body-content-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-content-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-content-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-mobile-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-content-regular-font-size: 14px;
+  --color-1-1-lvqmdgim-mobile-body-content-regular-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-content-regular-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-content-regular-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-caption-accent-font-size: 12px;
+  --color-1-1-lvqmdgim-mobile-body-caption-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-caption-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-mobile-body-caption-accent-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-caption-emphasis-font-size: 12px;
+  --color-1-1-lvqmdgim-mobile-body-caption-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-caption-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-caption-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-mobile-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-caption-regular-font-size: 12px;
+  --color-1-1-lvqmdgim-mobile-body-caption-regular-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-caption-regular-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-caption-regular-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-footnote-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-footnote-accent-font-size: 10px;
+  --color-1-1-lvqmdgim-mobile-body-footnote-accent-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-footnote-accent-font-weight: 600;
+  --color-1-1-lvqmdgim-mobile-body-footnote-accent-font-style: normal;
+  --color-1-1-lvqmdgim-mobile-body-footnote-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-footnote-emphasis-font-size: 10px;
+  --color-1-1-lvqmdgim-mobile-body-footnote-emphasis-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-footnote-emphasis-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-footnote-emphasis-font-style: italic;
+  --color-1-1-lvqmdgim-mobile-body-footnote-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-1-1-lvqmdgim-mobile-body-footnote-regular-font-size: 10px;
+  --color-1-1-lvqmdgim-mobile-body-footnote-regular-line-height: 120%;
+  --color-1-1-lvqmdgim-mobile-body-footnote-regular-font-weight: 400;
+  --color-1-1-lvqmdgim-mobile-body-footnote-regular-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-display-1-font-size: 144px;
+  --color-2-1-lvqmu386-desktop-headings-display-1-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-display-1-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-display-1-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-display-2-font-size: 96px;
+  --color-2-1-lvqmu386-desktop-headings-display-2-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-display-2-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-display-2-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-display-3-font-size: 64px;
+  --color-2-1-lvqmu386-desktop-headings-display-3-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-display-3-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-display-3-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-heading-1-font-size: 56px;
+  --color-2-1-lvqmu386-desktop-headings-heading-1-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-heading-1-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-heading-1-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-heading-2-font-size: 48px;
+  --color-2-1-lvqmu386-desktop-headings-heading-2-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-heading-2-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-heading-2-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-heading-3-font-size: 40px;
+  --color-2-1-lvqmu386-desktop-headings-heading-3-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-heading-3-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-heading-3-font-style: normal;
+  --color-2-1-lvqmu386-desktop-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-headings-heading-4-font-size: 32px;
+  --color-2-1-lvqmu386-desktop-headings-heading-4-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-headings-heading-4-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-headings-heading-4-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-hero-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-hero-bold-font-size: 28px;
+  --color-2-1-lvqmu386-desktop-body-hero-bold-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-hero-bold-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-body-hero-bold-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-hero-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-hero-accent-font-size: 28px;
+  --color-2-1-lvqmu386-desktop-body-hero-accent-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-hero-accent-font-weight: 600;
+  --color-2-1-lvqmu386-desktop-body-hero-accent-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-hero-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-hero-emphasis-font-size: 28px;
+  --color-2-1-lvqmu386-desktop-body-hero-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-hero-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-hero-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-desktop-body-hero-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-hero-standard-font-size: 28px;
+  --color-2-1-lvqmu386-desktop-body-hero-standard-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-hero-standard-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-hero-standard-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-feature-bold-font-size: 24px;
+  --color-2-1-lvqmu386-desktop-body-feature-bold-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-feature-bold-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-body-feature-bold-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-feature-accent-font-size: 24px;
+  --color-2-1-lvqmu386-desktop-body-feature-accent-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-feature-accent-font-weight: 600;
+  --color-2-1-lvqmu386-desktop-body-feature-accent-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-feature-emphasis-font-size: 24px;
+  --color-2-1-lvqmu386-desktop-body-feature-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-feature-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-feature-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-desktop-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-feature-standard-font-size: 24px;
+  --color-2-1-lvqmu386-desktop-body-feature-standard-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-feature-standard-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-feature-standard-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-highlight-bold-font-size: 18px;
+  --color-2-1-lvqmu386-desktop-body-highlight-bold-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-highlight-bold-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-body-highlight-bold-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-highlight-accent-font-size: 18px;
+  --color-2-1-lvqmu386-desktop-body-highlight-accent-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-highlight-accent-font-weight: 600;
+  --color-2-1-lvqmu386-desktop-body-highlight-accent-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-highlight-emphasis-font-size: 18px;
+  --color-2-1-lvqmu386-desktop-body-highlight-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-highlight-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-highlight-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-desktop-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-highlight-standard-font-size: 18px;
+  --color-2-1-lvqmu386-desktop-body-highlight-standard-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-highlight-standard-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-highlight-standard-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-content-bold-font-size: 16px;
+  --color-2-1-lvqmu386-desktop-body-content-bold-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-content-bold-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-body-content-bold-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-content-accent-font-size: 16px;
+  --color-2-1-lvqmu386-desktop-body-content-accent-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-content-accent-font-weight: 600;
+  --color-2-1-lvqmu386-desktop-body-content-accent-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-content-emphasis-font-size: 16px;
+  --color-2-1-lvqmu386-desktop-body-content-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-content-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-content-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-desktop-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-content-regular-font-size: 16px;
+  --color-2-1-lvqmu386-desktop-body-content-regular-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-content-regular-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-content-regular-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-caption-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-caption-bold-font-size: 14px;
+  --color-2-1-lvqmu386-desktop-body-caption-bold-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-caption-bold-font-weight: 700;
+  --color-2-1-lvqmu386-desktop-body-caption-bold-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-caption-accent-font-size: 14px;
+  --color-2-1-lvqmu386-desktop-body-caption-accent-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-caption-accent-font-weight: 600;
+  --color-2-1-lvqmu386-desktop-body-caption-accent-font-style: normal;
+  --color-2-1-lvqmu386-desktop-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-caption-emphasis-font-size: 14px;
+  --color-2-1-lvqmu386-desktop-body-caption-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-caption-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-caption-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-desktop-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-desktop-body-caption-regular-font-size: 14px;
+  --color-2-1-lvqmu386-desktop-body-caption-regular-line-height: 120%;
+  --color-2-1-lvqmu386-desktop-body-caption-regular-font-weight: 400;
+  --color-2-1-lvqmu386-desktop-body-caption-regular-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-display-1-font-size: 44px;
+  --color-2-1-lvqmu386-mobile-headings-display-1-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-display-1-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-display-1-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-display-2-font-size: 40px;
+  --color-2-1-lvqmu386-mobile-headings-display-2-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-display-2-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-display-2-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-display-3-font-size: 32px;
+  --color-2-1-lvqmu386-mobile-headings-display-3-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-display-3-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-display-3-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-heading-1-font-size: 28px;
+  --color-2-1-lvqmu386-mobile-headings-heading-1-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-heading-1-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-heading-1-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-heading-2-font-size: 24px;
+  --color-2-1-lvqmu386-mobile-headings-heading-2-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-heading-2-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-heading-2-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-heading-3-font-size: 20px;
+  --color-2-1-lvqmu386-mobile-headings-heading-3-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-heading-3-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-heading-3-font-style: normal;
+  --color-2-1-lvqmu386-mobile-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-headings-heading-4-font-size: 18px;
+  --color-2-1-lvqmu386-mobile-headings-heading-4-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-headings-heading-4-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-headings-heading-4-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-feature-bold-font-size: 18px;
+  --color-2-1-lvqmu386-mobile-body-feature-bold-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-feature-bold-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-body-feature-bold-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-feature-accent-font-size: 18px;
+  --color-2-1-lvqmu386-mobile-body-feature-accent-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-feature-accent-font-weight: 600;
+  --color-2-1-lvqmu386-mobile-body-feature-accent-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-feature-emphasis-font-size: 18px;
+  --color-2-1-lvqmu386-mobile-body-feature-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-feature-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-feature-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-mobile-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-feature-standard-font-size: 18px;
+  --color-2-1-lvqmu386-mobile-body-feature-standard-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-feature-standard-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-feature-standard-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-highlight-bold-font-size: 16px;
+  --color-2-1-lvqmu386-mobile-body-highlight-bold-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-highlight-bold-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-body-highlight-bold-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-highlight-accent-font-size: 16px;
+  --color-2-1-lvqmu386-mobile-body-highlight-accent-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-highlight-accent-font-weight: 600;
+  --color-2-1-lvqmu386-mobile-body-highlight-accent-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-highlight-emphasis-font-size: 16px;
+  --color-2-1-lvqmu386-mobile-body-highlight-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-highlight-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-highlight-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-mobile-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-highlight-standard-font-size: 16px;
+  --color-2-1-lvqmu386-mobile-body-highlight-standard-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-highlight-standard-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-highlight-standard-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-content-bold-font-size: 14px;
+  --color-2-1-lvqmu386-mobile-body-content-bold-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-content-bold-font-weight: 700;
+  --color-2-1-lvqmu386-mobile-body-content-bold-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-content-accent-font-size: 14px;
+  --color-2-1-lvqmu386-mobile-body-content-accent-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-content-accent-font-weight: 600;
+  --color-2-1-lvqmu386-mobile-body-content-accent-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-content-emphasis-font-size: 14px;
+  --color-2-1-lvqmu386-mobile-body-content-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-content-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-content-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-mobile-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-content-regular-font-size: 14px;
+  --color-2-1-lvqmu386-mobile-body-content-regular-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-content-regular-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-content-regular-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-caption-accent-font-size: 12px;
+  --color-2-1-lvqmu386-mobile-body-caption-accent-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-caption-accent-font-weight: 600;
+  --color-2-1-lvqmu386-mobile-body-caption-accent-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-caption-emphasis-font-size: 12px;
+  --color-2-1-lvqmu386-mobile-body-caption-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-caption-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-caption-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-mobile-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-caption-regular-font-size: 12px;
+  --color-2-1-lvqmu386-mobile-body-caption-regular-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-caption-regular-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-caption-regular-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-footnote-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-footnote-accent-font-size: 10px;
+  --color-2-1-lvqmu386-mobile-body-footnote-accent-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-footnote-accent-font-weight: 600;
+  --color-2-1-lvqmu386-mobile-body-footnote-accent-font-style: normal;
+  --color-2-1-lvqmu386-mobile-body-footnote-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-footnote-emphasis-font-size: 10px;
+  --color-2-1-lvqmu386-mobile-body-footnote-emphasis-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-footnote-emphasis-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-footnote-emphasis-font-style: italic;
+  --color-2-1-lvqmu386-mobile-body-footnote-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --color-2-1-lvqmu386-mobile-body-footnote-regular-font-size: 10px;
+  --color-2-1-lvqmu386-mobile-body-footnote-regular-line-height: 120%;
+  --color-2-1-lvqmu386-mobile-body-footnote-regular-font-weight: 400;
+  --color-2-1-lvqmu386-mobile-body-footnote-regular-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-1-font-size: 144px;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-1-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-1-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-1-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-2-font-size: 96px;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-2-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-2-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-2-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-3-font-size: 64px;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-3-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-3-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-display-3-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-1-font-size: 56px;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-1-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-1-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-1-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-2-font-size: 48px;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-2-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-2-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-2-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-3-font-size: 40px;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-3-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-3-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-3-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-4-font-size: 32px;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-4-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-4-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-headings-heading-4-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-bold-font-size: 28px;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-accent-font-size: 28px;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-emphasis-font-size: 28px;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-standard-font-size: 28px;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-standard-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-standard-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-hero-standard-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-bold-font-size: 24px;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-accent-font-size: 24px;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-emphasis-font-size: 24px;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-standard-font-size: 24px;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-standard-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-standard-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-feature-standard-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-bold-font-size: 18px;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-accent-font-size: 18px;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-emphasis-font-size: 18px;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-standard-font-size: 18px;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-standard-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-standard-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-highlight-standard-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-content-bold-font-size: 16px;
+  --jaggu-1-lvqmx4vx-desktop-body-content-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-content-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-body-content-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-content-accent-font-size: 16px;
+  --jaggu-1-lvqmx4vx-desktop-body-content-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-content-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-desktop-body-content-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-content-emphasis-font-size: 16px;
+  --jaggu-1-lvqmx4vx-desktop-body-content-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-content-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-content-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-desktop-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-content-regular-font-size: 16px;
+  --jaggu-1-lvqmx4vx-desktop-body-content-regular-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-content-regular-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-content-regular-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-bold-font-size: 14px;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-accent-font-size: 14px;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-emphasis-font-size: 14px;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-regular-font-size: 14px;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-regular-line-height: 120%;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-regular-font-weight: 400;
+  --jaggu-1-lvqmx4vx-desktop-body-caption-regular-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-1-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-1-font-size: 44px;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-1-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-1-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-1-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-2-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-2-font-size: 40px;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-2-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-2-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-2-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-3-font-family: Lora-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-3-font-size: 32px;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-3-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-3-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-display-3-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-1-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-1-font-size: 28px;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-1-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-1-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-1-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-2-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-2-font-size: 24px;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-2-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-2-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-2-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-3-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-3-font-size: 20px;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-3-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-3-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-3-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-4-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-4-font-size: 18px;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-4-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-4-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-headings-heading-4-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-bold-font-size: 18px;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-accent-font-size: 18px;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-emphasis-font-size: 18px;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-standard-font-size: 18px;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-standard-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-standard-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-feature-standard-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-bold-font-size: 16px;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-accent-font-size: 16px;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-emphasis-font-size: 16px;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-standard-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-standard-font-size: 16px;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-standard-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-standard-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-highlight-standard-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-content-bold-font-family: PlusJakartaSans-Bold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-content-bold-font-size: 14px;
+  --jaggu-1-lvqmx4vx-mobile-body-content-bold-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-content-bold-font-weight: 700;
+  --jaggu-1-lvqmx4vx-mobile-body-content-bold-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-content-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-content-accent-font-size: 14px;
+  --jaggu-1-lvqmx4vx-mobile-body-content-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-content-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-mobile-body-content-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-content-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-content-emphasis-font-size: 14px;
+  --jaggu-1-lvqmx4vx-mobile-body-content-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-content-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-content-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-mobile-body-content-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-content-regular-font-size: 14px;
+  --jaggu-1-lvqmx4vx-mobile-body-content-regular-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-content-regular-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-content-regular-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-accent-font-size: 12px;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-emphasis-font-size: 12px;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-regular-font-size: 12px;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-regular-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-regular-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-caption-regular-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-accent-font-family: PlusJakartaSans-SemiBold,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-accent-font-size: 10px;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-accent-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-accent-font-weight: 600;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-accent-font-style: normal;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-emphasis-font-family: PlusJakartaSans-Italic,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-emphasis-font-size: 10px;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-emphasis-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-emphasis-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-emphasis-font-style: italic;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-regular-font-family: PlusJakartaSans-Regular,
+    sans-serif;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-regular-font-size: 10px;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-regular-line-height: 120%;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-regular-font-weight: 400;
+  --jaggu-1-lvqmx4vx-mobile-body-footnote-regular-font-style: normal;
+
+  /* Effects */
+  --test-1-lvp44dui-shadow-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+  --color-1-1-lvqmdgim-shadow-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+  --color-2-1-lvqmu386-shadow-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+  --jaggu-1-lvqmx4vx-shadow-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
