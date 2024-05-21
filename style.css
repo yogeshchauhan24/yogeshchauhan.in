@@ -1,12 +1,121 @@
-*{
-  Margin:0px;
-  padding:0px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
 }
-body{
-  background-color:#000;
-  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
-div.containerleft{
-  fontsize:80px;
-  display:flex;
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-me p, .projects p {
+    font-size: 16px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-list span {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.rocket {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .about-me p, .projects p {
+        font-size: 14px;
+    }
+
+    .skills-list span {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .rocket {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .about-me p, .projects p {
+        font-size: 12px;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-list span {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .rocket {
+        font-size: 36px;
+    }
 }
